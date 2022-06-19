@@ -1,0 +1,20 @@
+h1 {
+    color: rgb(26, 26, 40);
+}
+
+#app {
+    background-color: rgb(234, 238, 240); 
+    height: 100vh;
+}
+
+.list {
+    color: rgb(66, 15, 167);
+    font-size: 32px;
+}
+
+
+
+.list > li:nth-child(even) {
+    color: rgb(141, 8, 24);
+    font-weight: 800;
+}
