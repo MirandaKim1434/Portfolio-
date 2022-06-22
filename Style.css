@@ -1,11 +1,15 @@
 h1   {
-    color: rgb(26, 26, 40);
-}
+    color: rgb(247, 247, 253); text-align: center 
+ }
 
 #app {
-    background-color: rgb(234, 238, 240); 
+    background: linear-gradient(#4b4949, #ffffff);
     height: 100vh;  
     outline-style: solid;
+}
+
+p {
+    color: #ffffff; text-align: center
 }
 
 .list {
@@ -18,4 +22,11 @@ h1   {
 .list > li:nth-child(even) {
     color: rgb(141, 8, 24);
     font-weight: 800;
+}
+
+@media only screen and (max-width: 800px) {
+    .list > li:nth-child(even) {
+        color: rgb(72, 140, 191);
+        font-weight: 800;
+    }
 }
