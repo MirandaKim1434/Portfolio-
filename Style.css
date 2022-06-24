@@ -1,5 +1,7 @@
 h1   {
-    color: rgb(247, 247, 253); text-align: center 
+    color: rgb(247, 247, 253); 
+    text-align: center;
+    text-shadow: 4px 4px #50d7e3;
  }
 
 #app {
@@ -8,25 +10,25 @@ h1   {
     outline-style: solid;
 }
 
-p {
-    color: #ffffff; text-align: center
+a {
+    color: #50d7e3; 
+    text-align: center;
+    text-shadow: 1px 1px #fcfcfc;
 }
-
+ 
 .list {
-    color: rgb(66, 15, 167);
-    font-size: 32px;
+    color: rgb(248, 244, 244);
+    font-weight: 800;
 }
-
-
-
+ 
 .list > li:nth-child(even) {
-    color: rgb(141, 8, 24);
+    color: rgb(248, 244, 244);
     font-weight: 800;
 }
 
 @media only screen and (max-width: 800px) {
     .list > li:nth-child(even) {
-        color: rgb(72, 140, 191);
+        color: rgb(248, 249, 250);
         font-weight: 800;
     }
 }
