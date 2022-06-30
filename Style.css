@@ -1,5 +1,5 @@
 h1   {
-    color: rgb(0, 0, 0); 
+    color: #333; 
     text-align: center;
     text-shadow: 4px 4px #8c8a8a;
  }
@@ -45,12 +45,12 @@ a {
   }
 
 .list {
-    color: rgb(248, 244, 244);
+    color: #ddd;
     font-weight: 800;
 }
  
 .list > li:nth-child(even) {
-    color: rgb(248, 244, 244);
+    color: #ddd;
     font-weight: 800;
 }
 
